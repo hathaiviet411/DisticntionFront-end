@@ -30,7 +30,7 @@ export default {
         Sidebar,
     },
     beforeCreate: function() {
-      document.body.className = 'dashboard'
+      document.body.className = 'ManagementSystem'
     },
     data(){
         return{
@@ -52,11 +52,11 @@ export default {
 </script>
 
 <style>
-  body.dashboard {
+  body.ManagementSystem {
     background-color: #EBEFF9;
   }
 
-  @import '../assets/css/Dashboard.css';
+  @import '../assets/css/ManagementSystem.css';
 </style>
 
 

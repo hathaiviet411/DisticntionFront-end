@@ -14,25 +14,22 @@
                     <a href="#" v-on:click.prevent v-b-toggle.collapse-1><i class="icofont-dashboard-web"></i>System's Info<span class="caret float-right"><i class="icofont-caret-down"></i></span></a>
                     <b-collapse id="collapse-1">
                         <ul id="collapse-1">
-                            <li><router-link to='/dashboard/overall'>Overall</router-link></li>
-                            <li><router-link to='/dashboard/individual'>Individual</router-link></li>
+                            <li><router-link to='/ManagementSystem/overall'>Overall</router-link></li>
+                            <li><router-link to='/ManagementSystem/individual'>Individual</router-link></li>
                         </ul>
                     </b-collapse>
                 </li>
                 <li>
-                    <router-link to='/dashboard/questions-list'><i class="icofont-notepad"></i> Staff List</router-link>
+                    <router-link to='/ManagementSystem/Staff-List'><i class="icofont-notepad"></i> Staff List</router-link>
                 </li>
                 <li>
-                    <router-link to='/dashboard/questions-list'><i class="icofont-notepad"></i> Trainer List</router-link>
+                    <router-link to='/ManagementSystem/Trainer-List'><i class="icofont-notepad"></i> Trainer List</router-link>
                 </li>
                 <li>
-                    <router-link to='/dashboard/questions-list'><i class="icofont-notepad"></i> Trainee List</router-link>
+                    <router-link to='/ManagementSystem/Trainee-List'><i class="icofont-notepad"></i> Trainee List</router-link>
                 </li>
                 <li>
-                    <router-link to='/dashboard/quizzes'><i class="icofont-question"></i> Quizzes</router-link>
-                </li>
-                <li>
-                    <router-link to='/dashboard/setting'><i class="icofont-settings-alt"></i> Setting</router-link>
+                    <router-link to='/ManagementSystem/setting'><i class="icofont-settings-alt"></i> Setting</router-link>
                 </li>
                  <li>
                     <router-link to='/login'><i class="icofont-logout"></i> Logout</router-link>

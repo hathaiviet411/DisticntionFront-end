@@ -1,31 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Dashboard from '../pages/Dashboard.vue'
+import ManagementSystem from '../pages/Dashboard.vue'
 import Login from '../pages/Login.vue'
 import NotFound from '../pages/NotFound.vue'
 import Overall from '../components/Overall.vue'
 import Individual from '../components/Individual.vue'
-import MemberList from '../components/MemberList.vue'
+import StaffList from '../components/StaffList.vue'
+import TrainerList from '../components/TrainerList.vue'
+import TraineeList from '../components/TraineeList.vue'
 import Setting from '../components/Setting.vue'
 
 Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-        alias: '/dashboard',
+        alias: '/ManagementSystem',
         redirect: '/Login',
-        name: 'Dashboard',
-        component: Dashboard,
+        name: 'ManagementSystem',
+        component: ManagementSystem,
         meta: {
-            title: 'Dashboard - EduChat'
+            title: 'Dashboard - EduManagementSystem'
         },
         children: [{
                 path: 'overall',
                 name: 'Overall',
                 component: Overall,
                 meta: {
-                    title: 'Overall - EduChat'
+                    title: 'Overall - EduManagementSystem'
                 }
             },
             {
@@ -33,15 +35,31 @@ const routes = [{
                 name: 'Individual',
                 component: Individual,
                 meta: {
-                    title: 'Individual - EduChat'
+                    title: 'Individual - EduManagementSystem'
                 }
             },
             {
-                path: 'member-list',
-                name: 'MemberList',
-                component: MemberList,
+                path: 'Staff-list',
+                name: 'StaffList',
+                component: StaffList,
                 meta: {
-                    title: 'Member List - EduChat'
+                    title: 'StaffList - EduManagementSystem'
+                }
+            },
+            {
+                path: 'Trainer-list',
+                name: 'TrainerList',
+                component: TrainerList,
+                meta: {
+                    title: 'TrainerList - EduManagementSystem'
+                }
+            },
+            {
+                path: 'Trainee-list',
+                name: 'TraineeList',
+                component: TraineeList,
+                meta: {
+                    title: 'TraineeList - EduManagementSystem'
                 }
             },
             {
@@ -49,7 +67,7 @@ const routes = [{
                 name: 'Setting',
                 component: Setting,
                 meta: {
-                    title: 'Setting - EduChat'
+                    title: 'Setting - EduManagementSystem'
                 }
             }
         ]

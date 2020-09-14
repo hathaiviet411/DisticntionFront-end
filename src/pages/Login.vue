@@ -23,7 +23,7 @@
                             </div>
 
                             <div class="login-row btnroo row no-margin">
-                                <button type="button" class="btn btn-primary btn-sm" @click="login()"> Sign In</button>
+                                <button type="button" class="btn btn-primary btn-sm"  @click="login()"><router-link to="/ManagementSystem/overall" style="color:#fff;">Sign In</router-link></button>
                             </div>
                             <div class="login-row donroo row no-margin">
                                 <p>Dont have an Account ? <a href="">Sign Up</a></p>
@@ -56,6 +56,7 @@ export default {
         login() {
             console.log("Username: " + this.username)
             console.log("Password: " + this.password)
+            
         }
     }
 }
