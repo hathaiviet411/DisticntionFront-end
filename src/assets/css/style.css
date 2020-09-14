@@ -1,0 +1,206 @@
+body{
+    background-color: #EBEFF9;
+}
+
+*:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.card {
+    margin-bottom: 12px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    -webkit-box-shadow: 0 0 37px rgba(8,21,66,0.05);
+    box-shadow: 0 0 37px rgba(8,21,66,0.05);
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.card .card-body .media-body{
+    text-align: left;
+}
+
+.card .media i{
+    font-size: 60px;
+}
+
+@media(max-width: 768px){
+    /* .dashboard {
+        padding: 20px !important;
+    } */
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* CSS Table in Question List */
+@media(min-width: 768px){
+    /* QnA Maker */
+    .noQnA {
+        max-width: 10%;
+        min-width: 10%;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .questionQnA {
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+
+    /* Question List Component */
+    .no {
+        max-width: 100px;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .question {
+        max-width: 20%;
+        min-width: 20%;
+    }
+
+    .answera {
+        max-width: 20%;
+        min-width: 20%;
+    }
+
+    .answerb {
+        max-width: 20%;
+        min-width: 20%;
+    }
+
+    .answerc {
+        max-width: 20%;
+        min-width: 20%;
+    }
+    
+    .actions {
+        max-width: 15%;
+        min-width: 15%;
+        white-space: nowrap;
+    }
+
+    .no-quizzes {
+        max-width: 10px;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .senderid-quizzes {
+        max-width: 15%;
+        min-width: 15%;
+        white-space: nowrap;
+    }
+
+    .studentid-quizzes {
+        max-width: 15%;
+        min-width: 15%;
+        white-space: nowrap;
+    }
+
+    .fullname-quizzes {
+        max-width: 15%;
+        min-width: 15%;
+        white-space: nowrap;
+    }
+
+    .class-quizzes {
+        max-width: 15%;
+        min-width: 15%;
+        white-space: nowrap;
+    }
+
+    .table-checkbox {
+        max-width: 5%;
+        min-width: 5%;
+        text-align: center;
+    }
+
+    .no-ExampleCode {
+        text-align: center;
+    }
+
+    .Actions-ExampleCode {
+        text-align: center;
+    }
+
+}
+
+th.no {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+th.actions {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+th.noQnA {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+th.questionQnA {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+th.no-quizzes {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+th.no-ExampleCode {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+th.Actions-ExampleCode {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+th {
+    background-color: tomato;
+    color: white;
+    font-weight: normal;
+}
+
+th:focus {
+    outline: none;
+}
+
+/* Mode scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+

@@ -1,0 +1,164 @@
+*:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.filter {
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    height: 145px;
+}
+
+.search {
+    height: 180px;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.question-list {
+    margin-top: 10px;
+    height: 695px;
+}
+
+.title-card h4 {
+    text-indent: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.search {
+    padding: 10px;
+}
+
+.form-search {
+    display: inline-block;
+}
+
+.form-search input {
+    width: 90%;
+}
+
+.bv-example-row {
+    margin-top: 30px;
+}
+
+input#keyword-input {
+    margin-bottom: 10px;
+}
+
+.search button {
+    width: 100%;
+    background-color: tomato;
+    border: none;
+}
+
+.search button:hover {
+    background-color: #f9e41a;
+    color: black;
+}
+
+.search button:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    outline: 0;
+}
+
+button.edit {
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: tomato;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.edit i {
+    margin-right: 5px;
+}
+
+button.edit:hover {
+    background-color: #f9e41a;
+    color: black;
+}
+
+button.delete {
+    border-radius: 10px;
+    background-color: tomato;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.delete i {
+    margin-right: 5px;
+}
+
+button.delete:hover {
+    background-color: #f9e41a;
+    color: black;
+}
+
+#qoutes {
+    padding: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#qoutes i {
+    margin-left: 20px;
+}
+
+.questionList {
+    overflow-y: scroll;
+}
+
+.question-list {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.QuestionID {
+    text-align: center;
+    width: auto;
+    min-width: 0;
+    max-width: 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Question {
+    text-align: center;
+    width: auto;
+    min-width: 200px;
+    max-width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th.Answer {
+    text-align: center;
+    width: auto;
+    min-width: 200px;
+    max-width: 23%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td {
+    text-align: center;
+}
+
+.pick {
+    line-height: 5px;
+}
