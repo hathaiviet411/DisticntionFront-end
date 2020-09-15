@@ -9,6 +9,7 @@ import Individual from '../components/Individual.vue'
 import StaffList from '../components/StaffList.vue'
 import TrainerList from '../components/TrainerList.vue'
 import TraineeList from '../components/TraineeList.vue'
+import HomePage from '../components/HomePage.vue'
 import Setting from '../components/Setting.vue'
 
 Vue.use(VueRouter)
@@ -23,6 +24,15 @@ const routes = [{
             title: 'Dashboard - EduManagementSystem'
         },
         children: [{
+                path: 'Home-page',
+                name: 'HomePage',
+                component: HomePage,
+                meta: {
+                    title: 'HomePage - EduManagementSystem'
+                }
+
+            },
+            {
                 path: 'overall',
                 name: 'Overall',
                 component: Overall,
@@ -73,15 +83,11 @@ const routes = [{
         ]
     },
     {
-        path: '/dashboard',
-        redirect: '/dashboard',
-    },
-    {
         path: '/login',
         name: 'Login',
         component: Login,
         meta: {
-            title: 'Login - EduChat'
+            title: 'Login - EduManagementSystem'
         }
     },
     {

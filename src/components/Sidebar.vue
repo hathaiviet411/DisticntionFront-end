@@ -11,6 +11,9 @@
                     </h3>
                 </li>
                 <li>
+                    <router-link to='/ManagementSystem/home-page'><i class="icofont-notepad"></i>Home Page</router-link>
+                </li>
+                <li>
                     <a href="#" v-on:click.prevent v-b-toggle.collapse-1><i class="icofont-dashboard-web"></i>System's Info<span class="caret float-right"><i class="icofont-caret-down"></i></span></a>
                     <b-collapse id="collapse-1">
                         <ul id="collapse-1">

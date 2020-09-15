@@ -1,5 +1,5 @@
 <template>
-     <div id="wrapper" v-bind:class="toggle">
+    <div id="wrapper" v-bind:class="toggle">         
         <!-- Sidebar -->
         <Sidebar/>
         <!-- /#sidebar-wrapper -->
@@ -13,21 +13,23 @@
                 <router-view></router-view>
             </div>
         </div>
+        <Footer/>
         <!-- /#page-content-wrapper -->
-
-     </div>
+    </div>  
 </template>
 
 <script>
 
 import Topbar from '../components/Topbar';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer'
 
 export default {
     name: 'home',
     components:{
         Topbar,
         Sidebar,
+        Footer
     },
     beforeCreate: function() {
       document.body.className = 'ManagementSystem'
@@ -46,6 +48,16 @@ export default {
             }else{
                 this.toggle = ''
             }
+        },
+        changeColor() {
+            var color = ["#32064A", "#E56B1F", "#FCD02C", "E42C6A", "#292930", "#3EB650", "#FCC133", "#E12B38"];
+            var i = 0;
+                document.querySelector("button").addEventListener("click", 
+            function() {
+                i = i < color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i];
+                });
+            console.log(color);
         }
     }
 }
@@ -53,7 +65,7 @@ export default {
 
 <style>
   body.ManagementSystem {
-    background-color: #EBEFF9;
+    background-color: #ffffff;
   }
 
   @import '../assets/css/ManagementSystem.css';

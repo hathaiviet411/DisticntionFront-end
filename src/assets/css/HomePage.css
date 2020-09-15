@@ -1,0 +1,43 @@
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    font-size: 45px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.top-wrapper {
+    height: 600px;
+}

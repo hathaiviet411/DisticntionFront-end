@@ -3,7 +3,6 @@
     <div class="card">
       <center>
         <h1>Comming soon...</h1>
-        <button @click="changeColor">Switch Color Button</button>
       </center>
     </div>
   </div>
