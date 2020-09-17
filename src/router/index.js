@@ -17,7 +17,7 @@ Vue.use(VueRouter)
 const routes = [{
         path: '/',
         alias: '/ManagementSystem',
-        redirect: '/Login',
+        redirect: '/Home-page',
         name: 'ManagementSystem',
         component: ManagementSystem,
         meta: {
@@ -30,7 +30,6 @@ const routes = [{
                 meta: {
                     title: 'HomePage - EduManagementSystem'
                 }
-
             },
             {
                 path: 'overall',

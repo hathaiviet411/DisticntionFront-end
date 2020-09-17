@@ -1,10 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
-import { BootstrapVue } from 'bootstrap-vue'
-import Vuex from 'vuex'
-import router from './router'
-import Axios from 'axios'
+import Vue from 'vue';
+import App from './App.vue';
+import { BootstrapVue } from 'bootstrap-vue';
+import Vuex from 'vuex';
+import router from './router';
+import Axios from 'axios';
 import VueCarousel from 'vue-carousel';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 Vue.use(VueCarousel);
 
@@ -21,6 +23,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.config.productionTip = false
 
 new Vue({
+    created() {
+        AOS.init();
+    },
     router,
     render: h => h(App),
 }).$mount('#app')

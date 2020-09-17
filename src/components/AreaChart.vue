@@ -28,32 +28,37 @@ export default {
     this.renderChart(
       {
         labels: [
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
         ],
         datasets: [
           {
-            label: "Take the quizzes entirely",
+            label: "Number of The Trainers",
             borderColor: "#FC2525",
-            pointBackgroundColor: "white",
-            borderWidth: 1,
-            pointBorderColor: "white",
+            pointBackgroundColor: "black",
+            borderWidth: 2,
+            pointBorderColor: "black",
             backgroundColor: this.gradient,
-            data: [45, 35, 40, 50, 39, 50, 40]
+            data: [45, 35, 40, 50, 39, 50, 40, 58, 78, 65, 24, 99]
           },
           {
-            label: "NOT take the quizzes entirely",
+            label: "Number of The Trainee",
             borderColor: "#05CBE1",
-            pointBackgroundColor: "white",
-            pointBorderColor: "white",
-            borderWidth: 1,
+            pointBackgroundColor: "black",
+            pointBorderColor: "black",
+            borderWidth: 2,
             backgroundColor: this.gradient2,
-            data: [5, 15, 10, 0, 11, 0, 10]
+            data: [5, 15, 10, 0, 11, 0, 10, 57, 68, 10, 25, 45]
           }
         ]
       },

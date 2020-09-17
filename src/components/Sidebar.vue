@@ -7,7 +7,7 @@
                         <img src="../assets/avatar1.jpg" alt="">
                     </div>
                     <h3 class="avatar-name">
-                        Adminstrator
+                        <p style="color: white">Adminstrator</p> 
                     </h3>
                 </li>
                 <li>

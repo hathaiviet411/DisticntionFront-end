@@ -35,7 +35,7 @@
           <b-col sm>
             <div class="card area">
               <div class="title">
-                <h4>Area Chart: Students' anticipation</h4>
+                <h4>Number of The Trainer and Trainee in 2020</h4>
               </div>
 
               <AreaChart/>

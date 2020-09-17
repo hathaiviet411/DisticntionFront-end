@@ -6,7 +6,7 @@
                 
                     <div class="col-lg-5 col-md-6 no-padding">
                         <div class="login-box">
-                            <h5>Welcome Back Teacher!</h5>
+                            <h5>Welcome Back Adminstrator!</h5>
                             <div class="login-row row no-margin">
                                 <label for=""><i class="fas fa-envelope"></i> Username</label>
                                 <input v-model="username" type="email" class="form-control form-control-sm" spellcheck="false">
